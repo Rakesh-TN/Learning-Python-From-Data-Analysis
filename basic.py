@@ -80,3 +80,17 @@ elif a == b:
     print(a,'A is equal to B',b)
 else:
     print(b ,'B is greater than A', a)
+    
+# Dictionaries
+print("- Dictionaries")
+
+person = {
+    "name": "Rakesh",
+    "age": 24,
+    "nationality": "Indian",
+    "city": "Bangalore",
+    "Occupation": "Software Developer",
+}
+print(person)
+Name= person["name"]
+print(Name)
