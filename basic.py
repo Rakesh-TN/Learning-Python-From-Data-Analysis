@@ -67,3 +67,16 @@ print("- Tuples")
 three_numbers = (1, 2, 3)
 print(three_numbers.index(3)) # We Can't modify, add and remove 
 print(three_numbers) 
+
+# IF Statement
+print("- IF Statement")
+
+a = 200
+b = 100
+
+if a > b:
+    print(a,'A is greater than B',b)
+elif a == b:
+    print(a,'A is equal to B',b)
+else:
+    print(b ,'B is greater than A', a)
